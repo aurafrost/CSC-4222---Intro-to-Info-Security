@@ -1,0 +1,78 @@
+Presentation 1
+HEAP
+	-high-efficiency and privacy-preserving range query framework in participatory sensing
+	-Focuses on privacy of users, energy efficiency of mobile devices
+	-ID and Data servers are separate
+Modular verification items
+	-Data integrity verification
+	-This field consumes more energy
+	-Doesn't know requester; rarely considers things malicious
+Problem Formulation
+	-Dynamic game
+Pure Strategy
+	-When DS manipulates, users should attach
+	-When users attach, DS shouldn't manipulate
+	-When DS doesn't manipulate, users shouldn't attach
+	-When users don't attach, DS should manipulate
+Mixed Strategy
+	-User determines own probability to attach a field
+Conclusions
+	-Proposed scheme assumes every DS is malicious
+
+Presentation 2 - Hadoop Security
+Core Hadoop Architecture
+	-4 parts
+HDFS Components
+	-Big data storage layer for Apache Hadoop
+Master/Slave Architecture
+	-Master: NameNode
+	-Slaves: DataNode - read/write
+Block
+	-User data stored in files which are separated into blocks
+	-Default size: 64MB
+MapReduce
+	-Two tasks: Map Task and Reduce Task
+Security Implementation Issues
+	-Volume - security will reduce the efficiency
+	-Variety
+	-Velocity
+Basic Authentication
+	-Only uses a login for security
+Security in Motion
+	-Communication of blocks happens b/t client and server
+	-Needs to be encrypted to avoid spoofing
+DOS Attack
+	-Can be performed on Hadoop systems
+Impersonation Attack
+	-Spoofing essentially
+Loss of Control
+	-Can't track who is accessing data
+Privacy Concerns
+Comparison of Proposed/Current System
+	-SSL/TLS Encryption is currently used; slower thann DES and AES
+	-Certificates are used in current scheme
+Encryption
+	-Honey encryption: produces a ciphertext that when incorrectly decrypted by attack gives a plausible result
+
+Presentation 3 - Access Control in Cloud
+Benefits
+Issues (Main three)
+	-Security
+	-Performance
+	-Availability
+Threats
+	-Data breach
+	-Access Control
+	-Permanent Data Loss
+	-Compromised Credentials
+	-DoS
+	-Malicious Insiders
+	-Encryption Algorithm cracks
+	-Account hijacking
+	-Shared technologies
+Proposed Idea - Two factor Authentication Method
+Tokens
+	-Give one time password for access
+Three-Factor Authentication
+	
+
